@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    font-size: 32px;
+}
+.btn{
+    font-size: 22px;
+}
+.jumbotron{
+    background-image: url(/images/IMG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-top: 5%;
+}
+.display-4{
+    vertical-align: middle;
+}
