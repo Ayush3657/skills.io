@@ -28,3 +28,30 @@
 .card{
     border: 0;
 }
+.column {
+    float: left;
+    width: 33%;
+    padding: 15px 10px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .card1 {
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
