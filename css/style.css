@@ -80,3 +80,7 @@
     background-color: #1eff0079;
     color: white;
   }
+
+  .button1{
+    float: right !important;
+  }
